@@ -3,6 +3,4 @@ def number_keys(a_dictionary):
     if a_dictionary is not None:
         return len(a_dictionary.keys())
     else:
-        return 
-    else:
         return 0
