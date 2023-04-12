@@ -46,4 +46,4 @@ def matrix_divided(matrix, div):
         for row in matrix:
             res_row = list(map(lambda x: round(x / div, 2), row))
             res.append(res_row)
-        return 
+        return res 
